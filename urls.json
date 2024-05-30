@@ -1,0 +1,7 @@
+{
+    "apiUrl": {
+      "suffix": "-dev.dev.reqres.in",
+      "staging": "https://reqres.in",
+      "prod":"https://reqres.in"
+    }
+  }

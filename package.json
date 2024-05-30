@@ -1,0 +1,13 @@
+{
+  "name": "perf-tests",
+  "version": "1.0.0",
+  "description": "Performance tests for Identity",
+  "main": "index.js",
+  "scripts": {
+    "user:test": "dotenv -e .env k6 run /scripts/user.test.js"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^7.3.0",
+    "k6-html-reporter": "^1.0.5"
+  }
+}
