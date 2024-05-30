@@ -18,9 +18,9 @@ https://grafana.com/grafana/dashboards/2587
 For debugging the failing scenario under single user and no load comment out options in test, set TARGET_VUS=1 and make test function default:
 ex. export default function getAndPost()
 
-# Report generation
-node reportGeneration.js in utils folder
-k6-reporter is handled via handleSummary method
-junit reporter is handled via handleSummary method
+# Report generated directly in scripts
+k6-reporter and junit xml are handled via handleSummary method
 
+# Report generated manually
+node reportGeneration.js in utils folder
 
